@@ -1,0 +1,9 @@
+#include<bits/stdc++.h>
+using namespace std;
+int main(){
+    string str = "Hello World";
+    int length = str.size();
+    for(int i = 0; i <= length - 1; i++){
+        cout << str[i]  ;
+    }
+}
